@@ -1,0 +1,62 @@
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 15px 32px;
+  color: white;
+  background-color: #3e9cdc;
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 4px;
+  line-height: 16px;
+  text-transform: uppercase;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #68b3e6;
+  }
+
+  &--second {
+    background: #ffffff;
+    border-color: #3e9cdc;
+    border-radius: 3px;
+    color: #2a2b30;
+
+    &:hover {
+      background: #e2dbdb;
+    }
+  }
+
+  &--form {
+    line-height: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 370px;
+  }
+
+  &--fix {
+    width: 183px;
+  }
+
+  &--border-mini {
+    border-width: 1px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button--form {
+    width: auto;
+  }
+}
+
+.input-add-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}

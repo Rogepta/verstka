@@ -1,0 +1,31 @@
+$backgroundImage: url("./assets/background.png");
+
+.section-promo {
+  padding-top: 203px;
+  padding-bottom: 203px;
+  background-image: $backgroundImage;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-group {
+  display: flex;
+  gap: 24px;
+}
+
+.section-promo__content {
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-promo__content {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-promo {
+    padding-top: 103px;
+    padding-bottom: 45px;
+  }
+}
