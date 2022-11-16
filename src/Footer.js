@@ -43,7 +43,7 @@ function Footer() {
               © 2018 «LoremIpsum.net» Все права защищены.
             </p>
           </div>
-          <div className="footer__item w-lg-100">
+          <div className="footer__item c-beige">
             <FooterItems items={payItems} />
           </div>
           <div className="footer__item">

@@ -20,7 +20,7 @@
 
 .footer__item {
   justify-content: space-between;
-  white-space: nowrap;
+  // white-space: nowrap;
   display: flex;
   gap: 20px;
   padding: 0 32px;
@@ -54,5 +54,11 @@
       align-items: center;
       gap: 20px;
     }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .footer__item {
+    white-space: none;
   }
 }

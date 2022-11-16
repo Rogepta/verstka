@@ -6,7 +6,7 @@ $backgroundOrder: url("./assets/order_background.png");
   color: #000000;
   font-style: normal;
   font-family: "Lato", sans-serif;
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -24,3 +24,4 @@ a {
 svg {
   display: block;
 }
+

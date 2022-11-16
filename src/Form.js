@@ -33,7 +33,7 @@ export default function Form() {
       </div>
       <div className="form__button-submit">
         <button className="button button--border-mini button--form">
-          Прикрепить файл
+          Отправить
         </button>
       </div>
     </form>

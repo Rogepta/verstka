@@ -27,9 +27,7 @@ export default function SectionOrder() {
           <CirclesSvg />
           <div className="widget-steps__item">
             <img src={percent} alt="Icon percent" className="" />
-            <p className="widget-steps__item-text">
-              Сonsecteturadipiscing elit
-            </p>
+            <p className="widget-steps__item-text">Сonsectetura elit</p>
           </div>
           <CirclesSvg />
           <div className="widget-steps__item">

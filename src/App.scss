@@ -96,7 +96,7 @@ $backgroundImageOrder: url("./assets/backgroundOrder.png");
   .widget-steps {
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
 
     svg {
       display: none;
@@ -140,5 +140,19 @@ $backgroundImageOrder: url("./assets/backgroundOrder.png");
 
   .nav__item {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .widget-steps__item-text {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .widget-steps__item-text {
+    left: -50px;
+    right: -50px;
   }
 }

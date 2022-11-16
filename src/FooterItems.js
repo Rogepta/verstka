@@ -6,7 +6,7 @@ function FooterItems({ items }) {
           key={index}
           as={item.href ? "a" : "div"}
           href={item.href || null}
-          className="footer__element"
+          className="footer__element "
         >
           <img className="footer__icon" src={item.icon} />
           <p className="footer__text">{item.text}</p>
